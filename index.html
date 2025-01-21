@@ -3,53 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sample Webpage</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Webpage</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer | Designer | Problem Solver</p>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I’m excited to share this simple webpage with you.</p>
-    </section>
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer with expertise in creating beautiful and functional websites. I specialize in front-end development and have experience working with various technologies.
+            </p>
+        </section>
 
-    <section id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Web Design</li>
-            <li>Development</li>
-            <li>Consulting</li>
-        </ul>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue.js</li>
+                <li>Node.js, Express</li>
+                <li>Responsive Design</li>
+                <li>Version Control (Git/GitHub)</li>
+            </ul>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Web Developer</h3>
+                <p><strong>XYZ Company</strong> | Jan 2021 - Present</p>
+                <p>Developed and maintained responsive websites, collaborated with designers, and optimized applications for performance.</p>
+            </div>
+            <div class="job">
+                <h3>Intern</h3>
+                <p><strong>ABC Startup</strong> | Jun 2020 - Dec 2020</p>
+                <p>Assisted in building user-friendly websites and conducted quality assurance testing for projects.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong><br>University of XYZ, Graduated 2020</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 My Webpage. All rights reserved.</p>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
