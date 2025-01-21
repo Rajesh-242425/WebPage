@@ -1,65 +1,111 @@
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #f9f9f9;
     color: #333;
 }
 
+/* Container for Content */
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     max-width: 1200px;
 }
 
+/* Header Styles */
 header {
-    background: #333;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 20px;
 }
 
 header h1 {
-    margin: 0;
     font-size: 2.5em;
+    margin: 0;
 }
 
 header p {
-    margin: 5px 0 0;
+    margin: 10px 0 0;
     font-size: 1.2em;
+    font-weight: lighter;
 }
 
+/* Section Styles */
 section {
-    margin: 20px 0;
-    padding: 20px;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #2575fc;
+    border-bottom: 2px solid #6a11cb;
     padding-bottom: 5px;
-    margin-bottom: 15px;
-    color: #333;
 }
 
+section p, section ul {
+    margin: 10px 0;
+}
+
+/* List Styles */
 ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Job Section Styles */
 .job h3 {
-    margin: 0;
+    font-size: 1.4em;
+    margin: 10px 0;
     color: #333;
 }
 
-footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 10px 0;
-    margin-top: 20px;
+.job p {
+    margin: 5px 0;
 }
 
+/* Contact Links */
+section#contact a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #6a11cb;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
